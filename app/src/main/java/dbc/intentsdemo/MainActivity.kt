@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 this,
                 SecondActivity::class.java
         ).apply {
-//            putExtra()
+            putExtra(INTENT_MESSAGE_TAG, message)
         }
     }
 }

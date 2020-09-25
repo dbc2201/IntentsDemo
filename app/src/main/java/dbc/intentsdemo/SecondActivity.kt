@@ -19,7 +19,7 @@ class SecondActivity : AppCompatActivity() {
         }
 
         val textView: TextView = findViewById<TextView>(R.id.textView).apply {
-
+            text = intent.getStringExtra(INTENT_MESSAGE_TAG)
         }
     }
 }

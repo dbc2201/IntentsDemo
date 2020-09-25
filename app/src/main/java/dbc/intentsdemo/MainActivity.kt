@@ -22,5 +22,9 @@ class MainActivity : AppCompatActivity() {
 
     fun sendMessage(view: View) {
         val message: String = "Hello, from the MainActivity"
+        val intent: Intent = Intent(
+                this,
+                SecondActivity::class.java
+        )
     }
 }

@@ -26,5 +26,6 @@ class MainActivity : AppCompatActivity() {
         ).apply {
             putExtra(INTENT_MESSAGE_TAG, message)
         }
+        startActivity(intent)
     }
 }

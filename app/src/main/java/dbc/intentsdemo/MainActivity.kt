@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
                     this,
                     SecondActivity::class.java
             )
+            startActivity(newActivityIntent)
         }
     }
 }

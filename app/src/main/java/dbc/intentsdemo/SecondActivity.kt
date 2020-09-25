@@ -18,6 +18,6 @@ class SecondActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
 
-        val textView: TextView = findViewById(R.id.textView)
+        val textView: TextView = findViewById<TextView>(R.id.textView)
     }
 }

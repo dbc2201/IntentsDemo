@@ -6,6 +6,8 @@ import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
+const val INTENT_MESSAGE_TAG: String = "message"
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         val intent: Intent = Intent(
                 this,
                 SecondActivity::class.java
-        )
+        ).apply {
+//            putExtra()
+        }
     }
 }

@@ -21,6 +21,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun sendMessage(view: View) {
-
+        val message: String = "Hello, from the MainActivity"
     }
 }
